@@ -1,0 +1,32 @@
+{
+  "name": "cafe-manana",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"try{require('fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\" && npx next@14.2.24 dev",
+    "build": "npx next@14.2.24 build",
+    "start": "npx next@14.2.24 start",
+    "lint": "npx next@14.2.24 lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "framer-motion": "^12.4.10",
+    "lucide-react": "^0.477.0",
+    "next": "14.2.24",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.24",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
